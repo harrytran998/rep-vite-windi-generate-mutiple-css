@@ -1,0 +1,23 @@
+{
+  "name": "@lalala/app1",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "@lalala/atoms.button": "workspace:^0.0.1",
+    "vue": "^3.0.11"
+  },
+  "devDependencies": {
+    "@types/node": "^15.6.1",
+    "@vitejs/plugin-vue": "^1.2.2",
+    "@vue/compiler-sfc": "^3.0.11",
+    "typescript": "^4.2.4",
+    "vite": "^2.3.4",
+    "vite-plugin-windicss": "^0.16.0",
+    "vue-tsc": "^0.1.6",
+    "windicss": "^3.0.12"
+  }
+}

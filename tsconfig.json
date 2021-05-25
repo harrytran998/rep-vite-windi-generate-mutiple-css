@@ -1,0 +1,8 @@
+{
+  "extends": "./tsconfig.base.json",
+  "exclude": ["packages/**/dist", "packages/**/**/dist"],
+  "include": ["packages", "typings"],
+  "compilerOptions": {
+    "types": ["vite/client", "node"]
+  }
+}

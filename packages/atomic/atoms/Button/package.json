@@ -1,0 +1,33 @@
+{
+  "name": "@lalala/atoms.button",
+  "version": "0.0.1",
+  "private": "false",
+  "license": "MIT",
+  "scripts": {
+    "build": "vue-tsc --noEmit && vite build --mode development",
+    "build:production": "vite build --mode production",
+    "dev": "vite build --watch --mode development"
+  },
+  "files": [
+    "dist"
+  ],
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "typings": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
+    }
+  },
+  "engines": {
+    "node": ">=14.16.0"
+  },
+  "peerDependencies": {
+    "vue": "^3.0.11"
+  },
+  "dependencies": {
+    "@lalala/utils": "workspace:^0.0.1"
+  }
+}

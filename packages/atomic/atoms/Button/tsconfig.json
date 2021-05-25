@@ -1,0 +1,9 @@
+{
+  "extends": "../../../../tsconfig.base.json",
+  "include": ["src", "./../../../../typings"],
+  "compilerOptions": {
+    "baseUrl": ".",
+    "sourceMap": false,
+    "inlineSourceMap": false
+  }
+}
